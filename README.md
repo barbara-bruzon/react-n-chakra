@@ -1,27 +1,14 @@
-# React + TypeScript + Vite
+# Programação WEB
+Repositório criado para realização e postagem da atividade referente a aula 05 (29.09.2023) de Programação WEB durante o 4º semestre do curso de Análise e Desenvolvimento de Sistemas na Fatec Indaiatuba
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Atividade - Introdução a React
+Ajustar a página de tarefas para torná-la similar ao modelo fornecido pelo professor.
 
-Currently, two official plugins are available:
+#### Conclusão
+Não tenho palavras para decrever o quão mais fácil foi realizar a montagem do front com a ajuda do Chakra. Essa biblioteca facilita muito o processo com os vários templates que disponibiliza em seu [site](https://chakra-templates.dev/page-sections/hero), tornando possível que até alguém que entende pouco ou tenha dificuldade com web (como eu) consiga esboçar um site bem bonito sem passar por muitos perrengues. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+De longe é a tarefa que mais me orgulho até o momento. Até acabei fazendo um pouco mais que o pedido ao incluir os templates do Chakra em todas as outras páginas que já havíamos criado antes. No geral, foi bem mais divertido e tranquilo do que custuma ser.
 
-## Expanding the ESLint configuration
+Minhas dificuldades dessa vez foram mais relacionadas a ajustar o tamanho dos componentes da página, principalmente ao colocar um ao lado do outro. 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+>O material dessa e outras aulas de programação WEB pode ser encontrado [aqui](https://github.com/barbara-bruzon/aulas-programacao-web).
